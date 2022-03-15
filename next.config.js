@@ -3,4 +3,17 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  webpack: (config, { isServer}) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        fs: false,
+        path: false,
+        buffer: false
+      }
+    }
+    return config
+  }
+}
+  
