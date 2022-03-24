@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import { POSTS_PER_PAGE } from "@/config/index"
 
 const files = fs.readdirSync(path.join("recipes"))
 
@@ -44,4 +45,17 @@ export function getRecipes({ slug }: any) {
       content,
     },
   }
+}
+
+export function getRecipeByPage() {
+  const numPages = Math.ceil(files.length / POSTS_PER_PAGE)
+  let paths = []
+
+  for (let i = 1; i <= numPages; i++) {
+    paths.push({
+      params: { page_index: i.toString() },
+    })
+  }
+
+  return paths
 }

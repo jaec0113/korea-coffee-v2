@@ -1,10 +1,13 @@
 ---
-카페: 펠트
-지역: 서울
-레시피: 아이스
-브루어: V60
-커피: 20g (medium-fine)
-물: 200g (95C)
+cafe: Felt
+region: 서울
+recipe: Ice
+brewer: V60
+coffee: 20g (medium-fine)
+water: 200g (95C)
+upload: 5/2/21
+ytUrl: https://www.youtube.com/watch?v=wATq9AAXSh4
+ytIframe: https://www.youtube.com/embed/wATq9AAXSh4?start=356
 id: 3
 ---
 

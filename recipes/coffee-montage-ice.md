@@ -1,10 +1,13 @@
 ---
-카페: 커피몽타쥬
-지역: 경기도
-레시피: 아이스
-브루어: V60 (with Chemex filter)
-커피: 16g (medium-fine)
-물: 160g (92C)
+cafe: Coffee Montage
+region: 경기도
+recipe: Ice
+brewer: V60 (with Chemex filter)
+coffee: 16g (medium-fine)
+water: 160g (92C)
+upload: 11/1/21
+ytUrl: https://www.youtube.com/watch?v=bLvZsq05Y2c
+ytIframe: https://www.youtube.com/embed/bLvZsq05Y2c
 id: 1
 ---
 

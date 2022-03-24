@@ -1,10 +1,13 @@
 ---
-카페: 로우키
-지역: 서울
-레시피: 아이스
-브루어: V60
-커피: 20g (light roast or natural + ~1g, dark roast -~1g), medium-coarse (1200 - 1300 um)
-물: 250g (87-90C)
+cafe: Lowkey
+region: 서울
+recipe: Ice
+brewer: V60
+coffee: 20g (light roast or natural + ~1g, dark roast -~1g), medium-coarse (1200 - 1300 um)
+water: 250g (87-90C)
+upload: 11/1/21
+ytUrl: https://www.youtube.com/watch?v=wwOuCZoGx2U
+ytIframe: https://www.youtube.com/embed/wwOuCZoGx2U
 id: 7
 ---
 

@@ -1,10 +1,13 @@
 ---
-카페: 히떼
-지역: 부산
-레시피: 아시스
-브루어: V60
-커피: 15g (medium-fine, ~800ug)
-물: 150g (95C)
+cafe: Hytte
+region: 부산
+recipe: Ice
+brewer: V60
+coffee: 15g (medium-fine, ~800ug)
+water: 150g (95C)
+upload: 12/1/21
+ytUrl: https://www.youtube.com/watch?v=CSKn9rs5_NA 
+ytIframe: https://www.youtube.com/embed/CSKn9rs5_NA?start=340
 id: 5
 --- 
 

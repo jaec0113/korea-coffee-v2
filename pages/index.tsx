@@ -1,5 +1,6 @@
 import type { GetStaticProps } from "next"
 import type { ReactElement } from "react"
+import styled from "styled-components"
 import { getRecipeFrontMatter } from "@/lib/recipes"
 import Layout from "@/components/Layout"
 import SideNav from "@/components/SideNav"
@@ -14,11 +15,11 @@ export const getStaticProps: GetStaticProps = async () => {
 export default function Home({ recipes }: any) {
   return (
     <>
-      <div>
+      <HomeWrapper>
         {recipes.map((recipe: any) => (
           <Recipe key={recipe.slug} recipe={recipe} />
         ))}
-      </div>
+      </HomeWrapper>
     </>
   )
 }
@@ -31,3 +32,9 @@ Home.getLayout = function getLayout(Home: ReactElement) {
     </Layout>
   )
 }
+
+const HomeWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`

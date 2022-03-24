@@ -1,10 +1,13 @@
 ---
-카페: 로우키
-지역: 서울
-레시피: 핫
-브루어: V60
-커피: 20g (약배전이나 내추럴 프로세스 -> 1g 추가, 강배전 -> 1g 빼기)
-물: 250g (87-90C)
+cafe: Lowkey
+region: 서울
+recipe: Hot
+brewer: V60
+coffee: 20g (약배전이나 내추럴 프로세스 -> 1g 추가, 강배전 -> 1g 빼기)
+water: 250g (87-90C)
+upload: 11/1/21
+ytUrl: https://www.youtube.com/watch?v=wwOuCZoGx2U
+ytIframe: https://www.youtube.com/embed/wwOuCZoGx2U
 id: 6
 ---
 
